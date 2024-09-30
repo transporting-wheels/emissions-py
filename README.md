@@ -15,7 +15,7 @@ Make sure you have Python installed. We recommend using a virtual environment to
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/transporting-wheels/emissions-calculator.git
+    git clone https://github.com/transporting-wheels/emissions-py.git
     cd emissions-calculator
     ```
 

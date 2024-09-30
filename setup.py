@@ -8,7 +8,7 @@ setup(
     description='CO2e calculator for automotive road transport',
     author='TransportingWheels',
     author_email='dev@transportingwheels.com',
-    url='https://github.com/transporting-wheels/emissions-calculator.git',
+    url='https://github.com/transporting-wheels/emissions-py.git',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
