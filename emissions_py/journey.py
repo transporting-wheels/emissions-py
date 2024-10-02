@@ -33,6 +33,10 @@ class Journey:
     @property
     def return_trip(self) -> bool:
         return self._return_trip
+    
+    @property
+    def haul_type(self) -> str:
+        return "Long Haul" if self.total_distance / len(self._stops) >= 50 else "Short Haul"
 
     def validate_journey(self):
         loaded_cars = set()
