@@ -16,7 +16,7 @@ Make sure you have Python installed. We recommend using a virtual environment to
 
     ```bash
     git clone https://github.com/transporting-wheels/emissions-py.git
-    cd emissions-calculator
+    cd emissions_py
     ```
 
 2. Install the required dependencies:
@@ -25,13 +25,7 @@ Make sure you have Python installed. We recommend using a virtual environment to
     pip install -r requirements.txt
     ```
 
-3. To run tests, install `pytest`:
-
-    ```bash
-    pip install pytest
-    ```
-
-4. Run the tests:
+3. Run the tests:
     ```bash
     pytest tests
     ```
